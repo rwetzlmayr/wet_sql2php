@@ -1,0 +1,3 @@
+h2. wet_sql2php Textpattern plugin
+
+Exports the current template into PHP code for txpsql.php. Textpattern uses this for generating the default site during setup.
