@@ -82,8 +82,11 @@ class wet_sql2php
 
 			$rows = array();
 			foreach ($rs as $a) {
+				// Enforce *nix new-lines
 				$a = str_replace("\r\n", "\n", $a);
-				$a = "'" . join("', '", str_replace('\\'.'\\'.'0', '\\\\'.'\\\\'.'0', doSlash($a))) . "'";
+				// Literal string '\0' into corresponding MySQL literal
+				$a = str_replace('\\'.'0', '\\'.'\\'.'\\'.'\\'.'0', $a);
+				$a = "'" . join("', '", doSlash($a)) . "'";
 				$rows[] = self::$where.' = "INSERT INTO `".PFX."'.$table.'`('.$cols.') VALUES('.$a.')";';
 			}
 			$f = preg_replace("#(// sql:$table).*(// /sql:$table)#s", '$1'.n. join(n, $rows) .n.'$2', $f);
