@@ -1,0 +1,36 @@
+# wet_sql2php v0.4
+# Export SQL as PHP source code
+# Robert Wetzlmayr
+# http://wetzlmayr.com/
+
+# ......................................................................
+# This is a plugin for Textpattern - http://textpattern.com/
+# To install: textpattern > admin > plugins
+# Paste the following text into the 'Install plugin' box:
+# ......................................................................
+
+H4sIAAAAAAAAA8VWbW/bNhD+LP2Kq2qAcuBJttOkqeJkaLf0BcjaLE7XDU2h0BJlqZEpjaRi
+Z0X/++4o2XGCDNu3AYFDkQ/vnnt4dySPRsPom46eR96NULqopHeoo93IGwbPaLQfebwxeaXo
+Y4Rf59VMKAOfhPmrXPDbdn64RsWNKmhmPIq83Jg6CsPlGhkk1SK0cFxMhU5UUZvO4fhF5J2s
+6gotT389Ba7h7O0Z6KpRiYCkSgWBnkWeua1xWES77afkC7G2iH5i/Wc5rvO6A+eirFvjGJ0z
+yXePzxpVV1pMQhy7rjOpj1unGkyOfhqlhDRgxKIuuRFQSFNZIsQAskqBWdXoI0AfAVyIlam5
+MUJJaLQgG4W2qLmQQnFTyLm1m4qMN6UBXaDNFBXCeS1MUweTsLY8kM5pkQiZbFO7IHN12cwL
+CThSohRcixQamQplDU845EpkRxupl8tgLpugUvOwJHvIKpzXZWBWxjt+Ixt4Y5mVcNbMEAAb
+p/y44+JCJ95a9NHBaBx5blJyrWFLY/eb62iDQSbQ2wh2BCy0kYV3QrHDO+Ay5wZBXCl+67uO
+wxAWJ1ozADg67uYZnSobAKOF/mANQ2EX7DEY5QT9f02AO3zN5+JRPJ6VinOzKC24f4+eUDaI
+XqIExkOxfv6CAbhOuLPjOrADb6vqGj6+G7QHCLUqbopSzIWm1dB1skYmlNQQx0kltVFNYvy+
+66BaTpGBj8wwq4TKOCb2Ebri6aKQrA8EcHiaxmRS+2xLaiI9YkTUcZSYFxr3x4bPfFYroTFj
+OXkk1P1N84uVuW+o/8BIwstyxpNrv5Uojn86fTmdxjGpVKA89y3azd9d/LvT4yOKCZuIHorQ
+FH5P3CDDAfTQYd0JMS+rGSahnSJxHTorU9W+ZbxhQWxxscdveFHyWYnngRv0dgI5TNgCZjhu
+0STyE2sZsBKfFDJuwXYKaTww1u9b4dsNeByduS5SR4syiyK76lP426F/EvxGPN44uExB59US
+CoN1y9NbwEZSczQTPJSodbhOkV6GJDLMqBgFoQwyaFdT1nCTBx2btZs2YKwLwZMc/G7V1hg2
+0J6hKCn/e0lVNgupuyTrYa5fU6xXNkyHlklUH80aFGqD/hHYDoMI7Ibga1VIn10NrjCz0mqK
+/SC/w/YDC2rTq6fInOaZiFW11BalBx0hyuWjEYPgUX/kDhh8OP/55Bxe/QFXLFivfx5+CZBy
+lxToBE1vUqF1vJGCGJAEvAvZCUM4kbiMRbcjixVIsfyhLCSVLdnixNeoWAkUNhG+d6kupTcA
+z/6imcO1lVPs4dRAEU1tnF0OWXtNJBXmgK4rmdL8L7d0jZUt+HEf7PKSBWxIZWtHD35oYePY
+bvaYh6rZY/Bol7d1DrzfxzVEdHgS5/MX8rhOCuxsASMr795PT84v4N37iw9w5QVnr38PPFTZ
+Hg4K7LeK6wB70m8vTz+eTGmG46d32ObLdys/JSq2n/mdZk991Ad7RdTa6gc7NBFuzTzVyJn1
+RiyQXSASgySuyF4GrDemoLOuz+CPSPIKq2plsIgF9xldSgjZHw7RjsXSNUGTdo+Ft++K+Kv2
+J5PJyYcpVZXPnraoIKuSRvvr6vO7/KCbm6pLULO23vG33dtWPbLBlNm+/w5duh0P2ldGrPjS
+vjT28OWU7wbQPTRc9/99X7gukeluedf99xeF98+PBC/6D6+MoHs9LtI9O8Knw24y2uN74xej
+8ehA7Ce742fJ3vOZyPbEQbI/HCfe4fe/AcAv6VaFCgAA
