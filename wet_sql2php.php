@@ -1,6 +1,6 @@
 <?php
 /* $LastChangedRevision: $ */
-$plugin['version'] = '0.5';
+$plugin['version'] = '0.6';
 $plugin['author'] = 'Robert Wetzlmayr';
 $plugin['author_uri'] = 'http://wetzlmayr.com/';
 $plugin['description'] = 'Export SQL as PHP source code';
@@ -78,7 +78,7 @@ class wet_sql2php
 		foreach (self::$what as $table => $columns) {
 			$tick = '`';
 			$cols = (empty($columns) ? '*' : $tick.join('`,`', doSlash($columns)).$tick);
-			$rs = safe_rows($cols, $table, '1=1' . (empty($columns) ? '' :  ' ORDER BY `'.$columns[0].'`'));
+			$rs = safe_rows($cols, $table, (empty($columns) ? '1=1' : $columns[0].' not like \'%.min%\'') . (empty($columns) ? '' :  ' ORDER BY `'.$columns[0].'`'));
 
 			$rows = array();
 			foreach ($rs as $a) {
