@@ -1,6 +1,6 @@
 <?php
 /* $LastChangedRevision: $ */
-$plugin['version'] = '0.4';
+$plugin['version'] = '0.5';
 $plugin['author'] = 'Robert Wetzlmayr';
 $plugin['author_uri'] = 'http://wetzlmayr.com/';
 $plugin['description'] = 'Export SQL as PHP source code';
@@ -52,7 +52,7 @@ class wet_sql2php
 	/**
 	 * User interface
 	 */
-	function ui($event, $step)
+	static function ui($event, $step)
 	{
 		global $step;
 
@@ -71,7 +71,7 @@ class wet_sql2php
 	/**
 	 * Weave the current template and show it ready to paste.
 	 */
-	function export()
+	static function export()
 	{
 		$f = file_get_contents(txpath.self::$template);
 
