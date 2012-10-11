@@ -1,6 +1,6 @@
 <?php
 /* $LastChangedRevision: $ */
-$plugin['version'] = '0.6';
+$plugin['version'] = '0.7';
 $plugin['author'] = 'Robert Wetzlmayr';
 $plugin['author_uri'] = 'http://wetzlmayr.com/';
 $plugin['description'] = 'Export SQL as PHP source code';
@@ -84,8 +84,10 @@ class wet_sql2php
 			foreach ($rs as $a) {
 				// Enforce *nix new-lines
 				$a = str_replace("\r\n", "\n", $a);
-				// Literal string '\0' into corresponding MySQL literal
-				$a = str_replace('\\'.'0', '\\'.'\\'.'\\'.'\\'.'0', $a);
+				// Literal backslash into corresponding MySQL literal
+				foreach ($a as &$v) {
+					$v = addcslashes(addcslashes($v, '\\'), '\\');
+				}
 				$a = "'" . join("', '", doSlash($a)) . "'";
 				$rows[] = self::$where.' = "INSERT INTO `".PFX."'.$table.'`('.$cols.') VALUES('.$a.')";';
 			}
