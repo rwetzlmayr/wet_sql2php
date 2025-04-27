@@ -1,3 +1,5 @@
-h2. wet_sql2php Textpattern plugin
+h1. 301 Moved Permanently
 
-Exports the current template into PHP code for txpsql.php. Textpattern uses this for generating the default site during setup.
+The repository has been moved to https://codeberg.org/rwetzlmayr/wet_sql2php.
+
+This page is left as a placeholder to guide users to the new location.
